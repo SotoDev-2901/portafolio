@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'PressStart2P-Regular';
+    src: url(/fonts/PressStart2P-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#carga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255);
+    z-index: 1000;
+}
+
+#carga h1 {
+    font-family: 'PressStart2P-Regular', sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    position: sticky;
+    padding: 20px 180px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.3px solid #ddd;
+}
+
+#header-title{
+    font-family: 'PressStart2P-Regular', sans-serif;
+    font-size: 25px;
+}
+
+#header-title a{
+    text-decoration: none;
+}
+
+nav{
+    margin-left: 20px;
+}
+
+.nav-item{
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 2px solid blueviolet;
+}
+
+nav a:active{
+    color: black;
+}
+
+/*Inicio*/
+
+#inicio{
+    display: flex;
+    padding: 20px 180px;
+    gap: 35px;
+}
+
+#foto{
+    border-radius: 15px;
+    width: 320px;
+    height: 320px;
+}
+
+#inicio-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 20px;
+    flex: 1;
+}
+
+#inicio-texto{
+
+}
+
+#inicio-buttom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*Footer*/
+
+
